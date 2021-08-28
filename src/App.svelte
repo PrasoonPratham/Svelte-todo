@@ -16,7 +16,6 @@
 		num++;
 		console.log(todos)
 	}
-
 	function removeTodo(id) {
 		const number = todos.findIndex(todo => todo.id === id);
   		todos.splice(number, 1);
